@@ -1,0 +1,22 @@
+Wax tool
+Accessibility Fail File:Form
+[
+  {
+    "element": "<input class=\"radioButton___qUguZ\" data-e2e=\"Tall\" id=\"Tall\" name=\"size\" type=\"radio\" value=\"Tall\">",
+    "message": "Form elements must have labels",
+    "description": "Ensures every form element has a label",
+    "impact": "critical"
+  },
+  {
+    "element": "<input class=\"radioButton___qUguZ\" data-e2e=\"Grande\" id=\"Grande\" name=\"size\" type=\"radio\" value=\"Grande\">",
+    "message": "Form elements must have labels",
+    "description": "Ensures every form element has a label",
+    "impact": "critical"
+  },
+  {
+    "element": "<input class=\"radioButton___qUguZ\" data-e2e=\"Venti\" id=\"Venti\" name=\"size\" type=\"radio\" value=\"Venti\">",
+    "message": "Form elements must have labels",
+    "description": "Ensures every form element has a label",
+    "impact": "critical"
+  }
+]
