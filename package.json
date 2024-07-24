@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@axe-core/react": "file:../../axe-core-react/axe-core-react-4.9.1.tgz",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "@wally-ax/wax-dev": "^0.1.33",
+    "@wally-ax/wax-dev": "file:../../wax-dev-updated/wally-ax-wax-dev-0.1.34.tgz",
+    "@wally-ax/wax-dev-react": "^0.1.1",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "react": "^18.3.1",

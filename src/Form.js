@@ -1,15 +1,35 @@
-import React from 'react'
+import React from 'react';
 
 export default function Form() {
     return (
         <div>
-            <p>Inputs without Label</p>
-            <p>There are three radio inputs, not associated with any labels</p>
+            <h1>Sample Form</h1>
             <form>
-                <input class="radioButton___qUguZ" data-e2e="Tall" id="Tall" name="size" type="radio" value="Tall" />
-                <input checked="" class="radioButton___qUguZ" data-e2e="Grande" id="Grande" name="size" type="radio" value="Grande" />
-                <input class="radioButton___qUguZ" data-e2e="Venti" id="Venti" name="size" type="radio" value="Venti" />
+                <div>
+                    <label htmlFor="name">Name:</label>
+                    <input type="text" id="name" name="name" />
+                </div>
+                <div>
+                    <p>Gender:</p>
+                    <label>
+                        <input type="radio" name="gender" value="male" /> Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female" /> Female
+                    </label>
+                    {/* <label> */}
+                        <input type="radio" name="gender" value="other" /> Other
+                    {/* </label> */}
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="subscribe" /> Subscribe to newsletter
+                    </label>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </div>
-    )
+    );
 }
