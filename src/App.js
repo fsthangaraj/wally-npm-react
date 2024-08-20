@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learxn React
+          Lean React
         </a>
       </header>
     </div>
